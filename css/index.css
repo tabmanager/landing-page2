@@ -1,6 +1,6 @@
 /* M I S C - U N I V E R S A L */
 body {
-    background-color: #240E28;
+    background-color: #ffffff;
 }
 .container {
     max-width: 1364px;
@@ -24,6 +24,7 @@ body {
     justify-content: space-between;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    /* box-shadow: 5px 5px 25px #2BD1FC; */
 }
 .navigation .logo {
     color: #FF48C4;
@@ -66,7 +67,7 @@ body {
 .header {
 }
 .headerBox {
-    width: 810px;
+    width: 880px;
     height: 478px;
     background-color: #521A4A;
     display: flex;
@@ -115,18 +116,187 @@ body {
 
 
 /* A B O U T - S E C T I O N */
+/* About Box */
 .about {
     width: 100%;
     height: 100vh;
-    background-color: #D8247C;
+    padding-top: 75px;
 }
+.aboutBox {
+    width: 1132px;
+    height: 293px;
+    background-color: #521A4A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 30px 60px 30px 60px;
+    margin-bottom: 100px;
+}
+.aboutBox h1 {
+    font-size: 60px;
+    color: #FF48C4;
+}
+.aboutBox p {
+    font-size: 30px;
+    color: #2BD1FC;
+}
+/* About Box */
+
+/* Desc One */
+.descBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.descBox .desc1 {
+    width: 400px;
+    height: 452px;
+    background-color: #521A4A;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.descBox .desc1 h1 {
+    font-size: 60px;
+    color: #FF48C4;
+}
+.descBox .desc1 p {
+    font-size: 30px;
+    color: #2BD1FC;
+}
+/* Desc One */
+
+/* Desc Two */
+.descBox .desc2 {
+    width: 400px;
+    height: 452px;
+    background-color: #521A4A;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    margin: 0 25px;
+}
+.descBox .desc2 h1 {
+    font-size: 60px;
+    color: #FF48C4;
+}
+.descBox .desc2 p {
+    font-size: 30px;
+    color: #2BD1FC;
+}
+/* Desc Two */
+
+/* Desc Three */
+.descBox .desc3 {
+    width: 400px;
+    height: 452px;
+    background-color: #521A4A;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.descBox .desc3 h1 {
+    font-size: 60px;
+    color: #FF48C4;
+}
+.descBox .desc3 p {
+    font-size: 30px;
+    color: #2BD1FC;
+}
+/* Desc Three */
 
 /* P R I C I N G - S E C T I O N */
 .pricing {
     width: 100%;
     height: 100vh;
-    background-color: #240E28;
 }
+/* Pricing Box */
+.pricingBox {
+    width: 1132px;
+    height: 293px;
+    background-color: #521A4A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 30px 60px 30px 60px;
+    margin-bottom: 100px;
+}
+.pricingBox h1 {
+    font-size: 60px;
+    color: #FF48C4;
+}
+.pricingBox p {
+    font-size: 30px;
+    color: #2BD1FC;
+}
+/* Pricing Box */
+
+/* Price One */
+.priceBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.priceBox .price1 {
+    width: 400px;
+    height: 452px;
+    background-color: #521A4A;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.priceBox .price1 h1 {
+    font-size: 60px;
+    color: #FF48C4;
+}
+.priceBox .price1 p {
+    font-size: 30px;
+    color: #2BD1FC;
+}
+/* Price One */
+
+/* Price Two */
+.priceBox .price2 {
+    width: 400px;
+    height: 452px;
+    background-color: #521A4A;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    margin: 0 25px;
+}
+.priceBox .price2 h1 {
+    font-size: 60px;
+    color: #FF48C4;
+}
+.priceBox .price2 p {
+    font-size: 30px;
+    color: #2BD1FC;
+}
+/* Price Two */
+
+/* Price Three */
+.priceBox .price3 {
+    width: 400px;
+    height: 452px;
+    background-color: #521A4A;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.priceBox .price3 h1 {
+    font-size: 60px;
+    color: #FF48C4;
+}
+.priceBox .price3 p {
+    font-size: 30px;
+    color: #2BD1FC;
+}
+/* Price Three */
 
 /* F E E D B A C K - S E C T I O N */
 .feedback {
@@ -134,10 +304,29 @@ body {
     height: 100vh;
     background-color: #D8247C;
 }
+.slideshow div {
+    display:none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.slideshow div:first-child {
+    display:block;
+}
+div{background:red}
+
+.slideshow > div{
+    width:400px;
+    height:250px;
+}
 
 /* F O O T E R - S E C T I O N */
 .footer {
     width: 100%;
     height: 50px;
     background-color: #240E28;
+}
+.footerBox {
+    display: flex;
+    flex-direction: row;
 }
