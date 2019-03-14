@@ -10,6 +10,7 @@ body {
 .landing {
     width: 100%;
     height: 100vh;
+    margin-bottom: 80px;
 }
 /* NAVIGATION */
 .navigation {
@@ -92,7 +93,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 256px auto;
+    margin: 0 auto;
+    margin-top: 80px;
     border-radius: 15px;
     position: relative;
     box-shadow: 5px 5px 25px #2BD1FC;
@@ -141,24 +143,49 @@ body {
 .about {
     width: 100%;
     height: 100vh;
-    padding-top: 75px;
 }
 .aboutBox {
     width: 1132px;
-    height: 293px;
+    height: 155px;
     background-color: #521A4A;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border-radius: 15px;
+    position: relative;
     margin: 0 auto;
-    padding: 30px 60px 30px 60px;
+    padding: 15px 30px 0px 30px;
     margin-bottom: 100px;
     box-shadow: 5px 5px 25px #2BD1FC;
+}
+.aboutBox .iconbar2 {
+    width: 100%;
+    height: 33px;
+    background-color: #D8247C;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.aboutBox .iconbar2 #editicon {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+.aboutBox .iconbar2 #deleteicon {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
 }
 .aboutBox h1 {
     font-size: 60px;
     color: #FF48C4;
+    margin-bottom: 15px;
 }
 .aboutBox p {
     font-size: 30px;
@@ -174,7 +201,7 @@ body {
 }
 .descBox .desc1 {
     width: 400px;
-    height: 452px;
+    height: 300px;
     background-color: #521A4A;
     display: flex;
     flex-direction: column;
@@ -194,7 +221,7 @@ body {
 /* Desc Two */
 .descBox .desc2 {
     width: 400px;
-    height: 452px;
+    height: 300px;
     background-color: #521A4A;
     display: flex;
     flex-direction: column;
@@ -215,7 +242,7 @@ body {
 /* Desc Three */
 .descBox .desc3 {
     width: 400px;
-    height: 452px;
+    height: 300px;
     background-color: #521A4A;
     display: flex;
     flex-direction: column;
@@ -240,14 +267,14 @@ body {
 /* Pricing Box */
 .pricingBox {
     width: 1132px;
-    height: 293px;
+    height: 155px;
     background-color: #521A4A;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border-radius: 15px;
     margin: 0 auto;
-    padding: 30px 60px 30px 60px;
+    padding: 15px 30px 0px 30px;
     margin-bottom: 100px;
     box-shadow: 5px 5px 25px #2BD1FC;
 }
@@ -269,7 +296,7 @@ body {
 }
 .priceBox .price1 {
     width: 400px;
-    height: 452px;
+    height: 300px;
     background-color: #521A4A;
     display: flex;
     flex-direction: column;
@@ -289,7 +316,7 @@ body {
 /* Price Two */
 .priceBox .price2 {
     width: 400px;
-    height: 452px;
+    height: 300px;
     background-color: #521A4A;
     display: flex;
     flex-direction: column;
@@ -310,7 +337,7 @@ body {
 /* Price Three */
 .priceBox .price3 {
     width: 400px;
-    height: 452px;
+    height: 300px;
     background-color: #521A4A;
     display: flex;
     flex-direction: column;
@@ -370,7 +397,7 @@ body {
 .footer {
     width: 100%;
     height: 50px;
-    background-color: #240E28;
+    background-color: #521A4A;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     box-shadow: 5px 5px 25px #2BD1FC;
@@ -378,4 +405,14 @@ body {
 .footerBox {
     display: flex;
     flex-direction: row;
+}
+
+/* M O B I L E - B R E A K - P O I N T S */
+@media only screen and (max-width : 320px) {
+}
+
+@media only screen and (max-width : 375px) {
+}
+
+@media only screen and (max-width : 425px) {
 }
