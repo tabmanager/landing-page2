@@ -5,174 +5,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Better Than Toby - Tabless Thursday</title>
-
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Nunito:300,800" rel="stylesheet">
+
+    <title>Better Than Toby - Tabless Thursday</title>
 </head>
 
 <body>
-    <section class="container">
+    <div class="wrapper">
 
-        <!-- L A N D I N G - P A G E - S E C T I O N -->
-        <section class="landing">
-            <!-- Navigation -->
-            <nav class="navigation" id="navbar">
-                <h1><a class="logo" href="index.html">Tabless Thursday</a></h1>
-                <ul class="navItems">
-                    <li><a href="index.html">Home</a></li><!-- Need to make active -->
-                    <li><a href="#">About Us</a></li>
-                    <li><a class="signIn" href="#">Sign In</a></li><!-- Have a join button that opens a modal with a sign in form, and a sign up modal. -->
-                    <button class="navBtn"><a href="#">Sign Up</a></button>
-                </ul>
-            </nav>
+        <!-- N A V A G A T I O N -->
+        <div class="iconbar0">
+            <i class="fas fa-edit"></i>
+            <i class="fas fa-trash"></i>
+        </div>
+        <nav class="navigation">
+            <h1><a class="logo" href="index.html">Tabless Thursday</a></h1>
+            <ul class="navItems">
+                <li><a class="active" href="index.html">Home</a></li><!-- Need to make active -->
+                <li><a href="#">About Us</a></li>
+                <li><a class="signIn" href="#">Sign In</a></li><!-- Have a join button that opens a modal with a sign in form, and a sign up modal. -->
+                <button class="navBtn"><a href="#">Sign Up</a></button>
+            </ul>
+        </nav>
 
-            <!-- Header -->
+        <!-- H E A D E R -->
+        <section class="headerContainer">
             <header class="header">
-                <!-- <div class="iconbar1">
-                    <img id="editicon" src="assets/icons/edit.svg" alt="">
-                    <img id="deleteicon" src="assets/icons/delete.svg" alt="">
-                </div> -->
-                <div class="headerBox">
-                    <div class="iconbar1">
-                        <img id="editicon" src="assets/icons/edit.svg" alt="">
-                        <img id="deleteicon" src="assets/icons/delete.svg" alt="">
-                    </div>
-                    <h1 class="title">Tabless Thursday</h1>
-                    <h2 class="subTitle">The Ultimate Tab Manager</h2>
-                    <button class="headerBtn"><a href="#">Sign Up</a></button>
-                    <button class="learnBtn"><a href="#learnMore">Learn More</a></button><!-- jQuery plugin ScrollTo -->
+                <div class="iconbar1">
+                    <i class="fas fa-edit"></i>
+                    <i class="fas fa-trash"></i>
                 </div>
+                <h1 class="title">Tabless Thursday</h1>
+                <h2 class="subTitle">The Ultimate Tab Manager</h2>
+                <button class="headerBtn"><a href="#">Sign Up</a></button>
+                <button class="learnBtn"><a href="#learnMore">Learn More</a></button>
             </header>
         </section>
 
-        <!-- A B O U T - S E C T I O N -->
+        <!-- A B O U T -->
         <section class="about" id="learnMore">
             <div class="aboutBox">
                     <div class="iconbar2">
-                        <img id="editicon" src="assets/icons/edit.svg" alt="">
-                        <img id="deleteicon" src="assets/icons/delete.svg" alt="">
+                        <i class="fas fa-edit"></i>
+                        <i class="fas fa-trash"></i>
                     </div>
                 <h1>Why is Tabless Thursday awesome?</h1>
                 <p>Tabless Thursday helps users stay organized, stay focused, and be more collaborative.</p>
             </div>
-            <div class="descBox">
-                <div class="desc1">
-                    <h1>Stay Organized</h1>
-                    <p>Lorem ipsum dolor sit amet, consetetur. Lorem ipsum dolor sit amet, consetetur.</p>
-                </div>
-                <div class="desc2">
-                    <h1>Stay Focused</h1>
-                    <p>Lorem ipsum dolor sit amet, consetetur. Lorem ipsum dolor sit amet, consetetur.</p>
-                </div>
-                <div class="desc3">
-                    <h1>Collaborate</h1>
-                    <p>Lorem ipsum dolor sit amet, consetetur. Lorem ipsum dolor sit amet, consetetur.</p>
-                </div>
+            <div class="desc1">
+                <h1>Stay Organized</h1>
+                <p>Lorem ipsum dolor sit amet, consetetur. Lorem ipsum dolor sit amet, consetetur.</p>
+            </div>
+            <div class="desc2">
+                <h1>Stay Focused</h1>
+                <p>Lorem ipsum dolor sit amet, consetetur. Lorem ipsum dolor sit amet, consetetur.</p>
+            </div>
+            <div class="desc3">
+                <h1>Collaborate</h1>
+                <p>Lorem ipsum dolor sit amet, consetetur. Lorem ipsum dolor sit amet, consetetur.</p>
             </div>
         </section>
 
-        <!-- P R I C I N G - S E C T I O N -->
+        <!-- P R I C I N G -->
         <section class="pricing">
             <div class="pricingBox">
                 <h1>Plans and Pricing</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</p>
             </div>
-            <div class="priceBox">
-                <div class="price1">
-                    <h1>Free</h1>
-                    <p>Lorem ipsum dolor sit amet, consetetur. Lorem ipsum dolor sit amet, consetetur.</p>
-                    <button><a href="#">Join</a></button>
-                </div>
-                <div class="price2">
-                    <h1>Teams</h1>
-                    <p>Lorem ipsum dolor sit amet, consetetur. Lorem ipsum dolor sit amet, consetetur.</p>
-                    <button><a href="#">Join</a></button>
-                </div>
-                <div class="price3">
-                    <h1>Enterprise</h1>
-                    <p>Lorem ipsum dolor sit amet, consetetur. Lorem ipsum dolor sit amet, consetetur.</p>
-                    <button><a href="#">Contact Us</a></button>
-                </div>
+            <div class="price1">
+                <h1>Free</h1>
+                <p>Lorem ipsum dolor sit amet, consetetur. Lorem ipsum dolor sit amet, consetetur.</p>
+                <button><a href="#">Join</a></button>
+            </div>
+            <div class="price2">
+                <h1>Teams</h1>
+                <p>Lorem ipsum dolor sit amet, consetetur. Lorem ipsum dolor sit amet, consetetur.</p>
+                <button><a href="#">Join</a></button>
+            </div>
+            <div class="price3">
+                <h1>Enterprise</h1>
+                <p>Lorem ipsum dolor sit amet, consetetur. Lorem ipsum dolor sit amet, consetetur.</p>
+                <button><a href="#">Contact Us</a></button>
             </div>
         </section>
 
-        <!-- F E E D B A C K - S E C T I O N  -->
+        <!-- F E E D B A C K  -->
         <section class="feedback">
-            <div class="feedBox">
-                <div class="slideshow">
+            <div class="slideshow">
+                <div id="box1" class="box">
+                    <img src="#" alt="1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</p>
+                    <h1>User's Name</h1>
+                </div>
 
-                    <div id="box1" class="box">
-                        <img src="#" alt="1">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</p>
-                        <h1>User's Name</h1>
-                    </div>
+                <div id="box2" class="box">
+                    <img src="#" alt="2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</p>
+                    <h1>User's Name</h1>
+                </div>
 
-                    <div id="box2" class="box">
-                        <img src="#" alt="2">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</p>
-                        <h1>User's Name</h1>
-                    </div>
+                <div id="box3" class="box">
+                    <img src="#" alt="3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</p>
+                    <h1>User's Name</h1>
+                </div>
 
-                    <div id="box3" class="box">
-                        <img src="#" alt="3">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</p>
-                        <h1>User's Name</h1>
-                    </div>
+                <div id="box4" class="box">
+                    <img src="#" alt="4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</p>
+                    <h1>User's Name</h1>
+                </div>
 
-                    <div id="box4" class="box">
-                        <img src="#" alt="4">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</p>
-                        <h1>User's Name</h1>
-                    </div>
+                <div id="box5" class="box">
+                    <img src="#" alt="5">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</p>
+                    <h1>User's Name</h1>
+                </div>
 
-                    <div id="box5" class="box">
-                        <img src="#" alt="5">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</p>
-                        <h1>User's Name</h1>
-                    </div>
-
-                    <div id="box6" class="box">
-                        <img src="#" alt="6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</p>
-                        <h1>User's Name</h1>
-                    </div>
-
+                <div id="box6" class="box">
+                    <img src="#" alt="6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</p>
+                    <h1>User's Name</h1>
                 </div>
             </div>
         </section>
 
-        <!-- F O O T E R - S E C T I O N -->
+        <!-- F O O T E R -->
         <footer class="footer">
-            <div class="footerBox">
-                <p class="footerLogo"><a href="index.html">Tabular Tabs</a></p>
-                <ul class="footerItems"><!-- I want to try to have modals pop up. -->
-                    <li><a href="#">Teams</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Terms</a></li>
-                </ul>
-                <p class="copyright">@ 2019 Tabular Tabs Inc.</p>
-            </div>
+            <p class="footerLogo"><a href="index.html">Tabular Tabs</a></p>
+            <ul class="footerItems">
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+            <p class="copyright">&COPY; 2019 Tabular Tabs Inc.</p>
         </footer>
 
-    </section><!-- .container -->
-
-    <script>
-        function Divs() {
-            var divs= $('.slideshow div'),
-                now = divs.filter(':visible'),
-                next = now.next().length ? now.next() : divs.first(), speed = 1000;
-    
-            now.fadeOut(speed);
-            next.fadeIn(speed);
-        }
-    
-        $(function () {
-            setInterval(Divs, 1400);
-        });
-
-    </script>
-
+    </div><!-- ..wrapper -->
 </body>
 
 </html>
