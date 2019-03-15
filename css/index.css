@@ -23,7 +23,7 @@ html {
 }
 body {
     background: var(--dark);
-    margin: 1.875rem 3.125rem;
+    margin: 0rem 3.125rem;
     line-height: 1.4;
 }
 .navBtn {
@@ -60,8 +60,8 @@ body {
     }
 .wrapper {
     display: grid;
-/*     grid-gap: 1.25rem; */
 }
+
 /* N A V I G A T I O N - S E C T I O N */
 .navigation {
     display: grid;
@@ -74,7 +74,7 @@ body {
 }
 .iconbar0 {
     display: grid;
-    grid-template-columns: repeat(2, 36px);
+    grid-template-columns: repeat(1, 36px);
     justify-content: end;
     background: var(--tertiary);
 }
