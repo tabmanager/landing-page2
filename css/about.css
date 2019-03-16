@@ -1,0 +1,619 @@
+/* V A R I A B L E S */
+:root {
+    --primary: #521A4A;
+    --secondary: #2BD1FC;
+    --tertiary: #D8247C;
+
+    --dark: #240E28;
+    --light: #FFFFFF;
+
+    --mainText: #FF48C4;
+
+    --shadow: 5px 5px 20px #2BD1FC;
+
+    --fontOne: 'Montserrat', sans-serif;
+    --fontTwo: 'Nunito', sans-serif;
+    --fontThree: Arial, Helvetica, sans-serif;
+}
+/* M I S C - U N I V E R S A L */
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body {
+    background: var(--dark);
+    margin: 0rem 3.125rem;
+    line-height: 1.4;
+    font-size: 100%;
+}
+.wrapper {
+    display: grid;
+}
+
+/* N A V I G A T I O N - S E C T I O N */
+.iconbar0 {
+    max-width: 111.125rem;
+    height: 1.875rem;
+    background: var(--tertiary);
+    border-top-left-radius: 0.9375rem;
+    border-top-right-radius: 0.9375rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.iconbar0 .fa-edit {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 2.5rem;
+}
+.iconbar0 .fa-trash {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 2.5rem;
+}
+.navigation {
+    max-width: 111.125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background: var(--primary);
+    border-bottom-left-radius: 0.9375rem;
+    border-bottom-right-radius: 0.9375rem;
+    margin-bottom: 10rem;
+}
+.navigation h1 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+    .navigation h1 a {
+        font-size: 1.5625rem;
+        font-family: var(--fonttwo);
+        font-weight: 800;
+        color: var(--light);
+        text-decoration: none;
+    }
+.navigation ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.navigation ul a {
+    text-decoration: none;
+    text-align: center;
+    margin-right: 2.5rem;
+    color: var(--light);
+    font-size: 1.1rem;
+    font-family: var(--fontOne);
+    font-weight: bold;
+}
+    .navigation ul .active {
+        color: var(--secondary);
+    }
+.navItems .navBtn {
+    width: 6.25rem;
+    height: 2.5rem;
+    background: var(--tertiary);
+    color: var(--light);
+    border: 0;
+    border-radius: 62.5rem;
+    margin-right: 2.5rem;
+}
+.navItems .navBtn a {
+    text-decoration: none;
+    color: var(--light);
+    margin: 0;
+}
+/* N A V I G A T I O N - S E C T I O N */
+
+/* A B O U T - U S - S E C T I O N */
+.about .holdy1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.about .holdyBar1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.holdyBar1 .iconbarA {
+    width: 31.25rem;
+    max-width: 31.25rem;
+    height: 1.875rem;
+    background: var(--tertiary);
+    border-top-left-radius: 0.9375rem;
+    border-top-right-radius: 0.9375rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.iconbarA .fa-edit {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 2.5rem;
+}
+.iconbarA .fa-trash {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 2.5rem;
+}
+.one {
+    width: 31.25rem;
+    max-width: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    background: var(--primary);
+    border-bottom-left-radius: 0.9375rem;
+    border-bottom-right-radius: 0.9375rem;
+    margin-bottom: 5rem;
+}
+.one:hover {
+    box-shadow: var(--shadow);
+}
+.one img {
+    max-height: 12.5rem;
+    max-width: 12.5rem;
+    margin: 1.25rem auto;
+    border-radius: 0.9375rem;
+}
+.one h1 {
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family: var(--fonttwo);
+    font-weight: 800;
+}
+.one .icons {
+    display: flex;
+    flex-direction: row;
+    margin: 1.25rem auto;
+}
+.one .icons .fa-github {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+.one .icons .fa-linkedin-in {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.one .icons .fa-twitter {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.one p {
+    font-size: 1.2rem;
+    font-family: var(--fontOne);
+    font-weight: 300;
+    margin-bottom: .5rem;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+}
+.one h2 {
+    font-size: 1.5rem;
+    font-family: var(--fontOne);
+    font-weight: 300;
+    margin-bottom: 2rem;
+    margin-left: 3.125rem;
+    margin-right: 1.875rem;
+}
+
+/*  */
+
+.holdyBar1 .iconbarB {
+    width: 31.25rem;
+    max-width: 31.25rem;
+    height: 1.875rem;
+    background: var(--tertiary);
+    border-top-left-radius: 0.9375rem;
+    border-top-right-radius: 0.9375rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.iconbarB .fa-edit {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 2.5rem;
+}
+.iconbarB .fa-trash {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 2.5rem;
+}
+.two {
+    width: 31.25rem;
+    max-width: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    background: var(--primary);
+    border-bottom-left-radius: 0.9375rem;
+    border-bottom-right-radius: 0.9375rem;
+    margin-bottom: 5rem;
+}
+.two:hover {
+    box-shadow: var(--shadow);
+}
+.two img {
+    max-height: 12.5rem;
+    max-width: 12.5rem;
+    margin: 1.25rem auto;
+    border-radius: 0.9375rem;
+}
+.two h1 {
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family: var(--fonttwo);
+    font-weight: 800;
+}
+.two .icons {
+    display: flex;
+    flex-direction: row;
+    margin: 1.25rem auto;
+}
+.two .icons .fa-github {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+.two .icons .fa-linkedin-in {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.two .icons .fa-twitter {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.two p {
+    font-size: 1.2rem;
+    font-family: var(--fontOne);
+    font-weight: 300;
+    margin-bottom: .5rem;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+}
+.two h2 {
+    font-size: 1.5rem;
+    font-family: var(--fontOne);
+    font-weight: 300;
+    margin-bottom: 2rem;
+    margin-left: 3.125rem;
+    margin-right: 1.875rem;
+}
+
+/*  */
+
+.holdyBar1 .iconbarC {
+    width: 31.25rem;
+    max-width: 31.25rem;
+    height: 1.875rem;
+    background: var(--tertiary);
+    border-top-left-radius: 0.9375rem;
+    border-top-right-radius: 0.9375rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.iconbarC .fa-edit {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 2.5rem;
+}
+.iconbarC .fa-trash {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 2.5rem;
+}
+.three {
+    width: 31.25rem;
+    max-width: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    background: var(--primary);
+    border-bottom-left-radius: 0.9375rem;
+    border-bottom-right-radius: 0.9375rem;
+    margin-bottom: 5rem;
+}
+.three:hover {
+    box-shadow: var(--shadow);
+}
+.three img {
+    max-height: 12.5rem;
+    max-width: 12.5rem;
+    margin: 1.25rem auto;
+    border-radius: 0.9375rem;
+}
+.three h1 {
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family: var(--fonttwo);
+    font-weight: 800;
+}
+.three .icons {
+    display: flex;
+    flex-direction: row;
+    margin: 1.25rem auto;
+}
+.three .icons .fa-github {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+.three .icons .fa-linkedin-in {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.three .icons .fa-twitter {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.three p {
+    font-size: 1.2rem;
+    font-family: var(--fontOne);
+    font-weight: 300;
+    margin-bottom: .5rem;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+}
+.three h2 {
+    font-size: 1.5rem;
+    font-family: var(--fontOne);
+    font-weight: 300;
+    margin-bottom: 2rem;
+    margin-left: 3.125rem;
+    margin-right: 1.875rem;
+}
+
+/*  */
+
+.about .holdy2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.about .holdyBar2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.holdyBar2 .iconbarD {
+    width: 31.25rem;
+    max-width: 31.25rem;
+    height: 1.875rem;
+    background: var(--tertiary);
+    border-top-left-radius: 0.9375rem;
+    border-top-right-radius: 0.9375rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.iconbarD .fa-edit {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 2.5rem;
+}
+.iconbarD .fa-trash {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 2.5rem;
+}
+.four {
+    width: 31.25rem;
+    max-width: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    background: var(--primary);
+    border-bottom-left-radius: 0.9375rem;
+    border-bottom-right-radius: 0.9375rem;
+    margin-bottom: 5rem;
+}
+.four:hover {
+    box-shadow: var(--shadow);
+}
+.four img {
+    max-height: 12.5rem;
+    max-width: 12.5rem;
+    margin: 1.25rem auto;
+    border-radius: 0.9375rem;
+}
+.four h1 {
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family: var(--fonttwo);
+    font-weight: 800;
+}
+.four .icons {
+    display: flex;
+    flex-direction: row;
+    margin: 1.25rem auto;
+}
+.four .icons .fa-github {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+.four .icons .fa-linkedin-in {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.four .icons .fa-twitter {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.four p {
+    font-size: 1.2rem;
+    font-family: var(--fontOne);
+    font-weight: 300;
+    margin-bottom: .5rem;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+}
+.four h2 {
+    font-size: 1.5rem;
+    font-family: var(--fontOne);
+    font-weight: 300;
+    margin-bottom: 2rem;
+    margin-left: 3.125rem;
+    margin-right: 1.875rem;
+}
+
+/*  */
+
+.holdyBar2 .iconbarE {
+    width: 31.25rem;
+    max-width: 31.25rem;
+    height: 1.875rem;
+    background: var(--tertiary);
+    border-top-left-radius: 0.9375rem;
+    border-top-right-radius: 0.9375rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.iconbarE .fa-edit {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 2.5rem;
+}
+.iconbarE .fa-trash {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 2.5rem;
+}
+.five {
+    width: 31.25rem;
+    max-width: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    background: var(--primary);
+    border-bottom-left-radius: 0.9375rem;
+    border-bottom-right-radius: 0.9375rem;
+    margin-bottom: 5rem;
+}
+.five:hover {
+    box-shadow: var(--shadow);
+}
+.five img {
+    max-height: 12.5rem;
+    max-width: 12.5rem;
+    margin: 1.25rem auto;
+    border-radius: 0.9375rem;
+}
+.five h1 {
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family: var(--fonttwo);
+    font-weight: 800;
+}
+.five .icons {
+    display: flex;
+    flex-direction: row;
+    margin: 1.25rem auto;
+}
+.five .icons .fa-github {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+.five .icons .fa-linkedin-in {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.five .icons .fa-twitter {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.five p {
+    font-size: 1.2rem;
+    font-family: var(--fontOne);
+    font-weight: 300;
+    margin-bottom: .5rem;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+}
+.five h2 {
+    font-size: 1.5rem;
+    font-family: var(--fontOne);
+    font-weight: 300;
+    margin-bottom: 2rem;
+    margin-left: 3.125rem;
+    margin-right: 1.875rem;
+}
+/* A B O U T - U S - S E C T I O N */
+
+/* F O O T E R - S E C T I O N */
+.iconbar5 {
+    max-width: 111.125rem;
+    height: 1.875rem;
+    background: var(--tertiary);
+    border-top-left-radius: 0.9375rem;
+    border-top-right-radius: 0.9375rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.iconbar5 .fa-edit {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 2.5rem;
+}
+.iconbar5 .fa-trash {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 2.5rem;
+}
+.footer {
+    max-width: 111.125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background: var(--primary);
+    border-bottom-left-radius: 0.9375rem;
+    border-bottom-right-radius: 0.9375rem;
+}
+.footer p a {
+    color: var(--light);
+    text-decoration: none;
+    margin: 1.25rem;
+    font-size: 1rem;
+    font-family: var(--fonttwo);
+    font-weight: 800;
+}
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 1.25rem;
+}
+.footer ul li {
+    margin: 0 2.5rem;
+}
+.footer ul li a {
+    color: var(--light);
+    text-decoration: none;
+    color: var(--light);
+    font-size: 1rem;
+    font-family: var(--fontOne);
+    font-weight: bold;
+}
+.footer .copyright {
+    color: var(--light);
+    margin: 1.25rem;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: var(--fontOne);
+}
+/* F O O T E R - S E C T I O N */
